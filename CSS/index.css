@@ -1,0 +1,99 @@
+    *{
+    overflow: hidden;
+    }
+
+    /* === BODY === */
+
+
+.marblehead {
+    height: 622px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: fadeIn 1s;
+    }
+
+.marblehead_op{
+    opacity: .2;
+    z-index: -1;
+    position: absolute;
+    left: -250px;
+    top: -60px;
+    animation: headop 2s;
+    }
+
+.yellowbannershadow{
+    position: absolute;
+    top: 50%;
+    left: 350px;
+    transform: translateY(-50%);
+    background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+    width: 400px;
+    height: 200px;
+    /* border: 1px solid red; */
+    animation: fadeIn 3s;
+    }
+
+.yellowbanner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(203, 169, 29, 0.17);
+    width: 100%;
+    height: 200px;
+    animation: fadeIn 1s;
+    }
+
+h1.name{
+    font-size: 88px;
+    font-weight: 100;
+    color: #B1790C;
+    letter-spacing: 4px;
+    font-weight: 300;
+    animation: fadeIn 4s;
+    }
+
+
+nav.propriety{
+margin: 20px;
+    }
+
+ul.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 8s;
+    }
+
+div.bar{
+    height: 1px;
+    width: 400px;
+    background-color: #B1790C;
+    animation: fadeIn 6s;
+    }
+
+ul li.desctext{
+    font-size: 20px;
+    color: #B1790C;
+    padding: 0 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    }
+
+.home{
+    color: rgba(195,188,178,0.21);
+    font-size: 88px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    letter-spacing: 4px;
+    font-weight: 100;
+    animation: fadeIn 10s;
+    }
